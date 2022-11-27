@@ -12,7 +12,7 @@
 
 <AnchorPane fx:id="adminScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="832.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <VBox fx:id="adminContainer" prefHeight="832.0" prefWidth="300.0" style="-fx-background-color: #5DA94A;">
+      <VBox fx:id="adminContainer" prefHeight="832.0" prefWidth="300.0" style="-fx-background-color: #5DA94A;" stylesheets="styles.css">
          <children>
             <Pane prefHeight="120.0" prefWidth="300.0">
                <children>
@@ -23,7 +23,7 @@
                   </Label>
                </children>
             </Pane>
-            <Button fx:id="addObj" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../../../java/main/arroz/styles.css" text="Add" textFill="WHITE">
+            <Button fx:id="addObj" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@styles.css" text="Add" textFill="WHITE">
                <padding>
                   <Insets left="70.0" />
                </padding>
@@ -31,7 +31,7 @@
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
             </Button>
-            <Button fx:id="addObj1" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../../../java/main/arroz/styles.css" text="Remove" textFill="WHITE">
+            <Button fx:id="addObj1" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@styles.css" text="Remove" textFill="WHITE">
                <padding>
                   <Insets left="70.0" />
                </padding>
@@ -39,7 +39,7 @@
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
             </Button>
-            <Button fx:id="addObj2" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../../../java/main/arroz/styles.css" text="Edit" textFill="WHITE">
+            <Button fx:id="addObj2" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@styles.css" text="Edit" textFill="WHITE">
                <padding>
                   <Insets left="70.0" />
                </padding>
@@ -47,7 +47,7 @@
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
             </Button>
-            <Button fx:id="addObj3" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../../../java/main/arroz/styles.css" text="Users" textFill="WHITE">
+            <Button fx:id="addObj3" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@styles.css" text="Users" textFill="WHITE">
                <padding>
                   <Insets left="70.0" />
                </padding>
@@ -55,7 +55,7 @@
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
             </Button>
-            <Button fx:id="addObj4" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../../../java/main/arroz/styles.css" text="Seesions" textFill="WHITE">
+            <Button fx:id="addObj4" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@styles.css" text="Sessions" textFill="WHITE">
                <padding>
                   <Insets left="70.0" />
                </padding>

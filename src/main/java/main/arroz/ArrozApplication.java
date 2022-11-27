@@ -14,8 +14,8 @@ public class ArrozApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ArrozApplication.class.getResource("admin-scene.fxml")); //git add . //git commit -m "Any" //git push
         Scene scene = new Scene(fxmlLoader.load());
-        //String css = this.getClass().getResource("styles.css").toExternalForm();
-        //scene.getStylesheets().add(css);
+        String css = this.getClass().getResource("styles.css").toExternalForm();
+        scene.getStylesheets().add(css);
         stage.setTitle("Arroz");
         stage.setScene(scene);
         stage.show();
