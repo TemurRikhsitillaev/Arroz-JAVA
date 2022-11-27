@@ -1,8 +1,9 @@
-module main.arroz {
+module arroz.arroz {
     requires javafx.controls;
     requires javafx.fxml;
 
+    requires org.kordamp.ikonli.javafx;
 
-    opens main.arroz to javafx.fxml;
-    exports main.arroz;
+    opens arroz.arroz to javafx.fxml;
+    exports arroz.arroz;
 }
