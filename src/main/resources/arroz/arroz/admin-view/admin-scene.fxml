@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
 <?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
@@ -32,6 +33,9 @@
                <font>
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="PLUS" text="" />
+               </graphic>
             </Button>
             <Button fx:id="addObj1" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Remove" textFill="WHITE">
                <padding>
@@ -40,6 +44,9 @@
                <font>
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="MINUS" />
+               </graphic>
             </Button>
             <Button fx:id="addObj2" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Edit" textFill="WHITE">
                <padding>
@@ -48,6 +55,9 @@
                <font>
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="PAPERCLIP" />
+               </graphic>
             </Button>
             <Button fx:id="addObj3" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Users" textFill="WHITE">
                <padding>
@@ -56,6 +66,9 @@
                <font>
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER" />
+               </graphic>
             </Button>
             <Button fx:id="addObj4" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Sessions" textFill="WHITE">
                <padding>
@@ -64,6 +77,9 @@
                <font>
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="TABLE" />
+               </graphic>
             </Button>
          </children>
       </VBox>
@@ -119,7 +135,7 @@
             <Font name="Segoe UI" size="15.0" />
          </font>
       </CheckBox>
-      <Button layoutX="916.0" layoutY="671.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="100.0" style="-fx-background-color: #5CA849;" text="ADD" textFill="WHITE">
+      <Button layoutX="916.0" layoutY="671.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="100.0" stylesheets="@../styles.css" text="ADD" textFill="WHITE">
          <font>
             <Font name="Segoe UI Bold" size="15.0" />
          </font>
@@ -151,10 +167,9 @@
          <font>
             <Font name="Segoe UI Bold" size="15.0" />
          </font>
-         <styleClass>
-            <String fx:value="transpartent" />
-            <String fx:value="round-layout" />
-         </styleClass>
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="BACKWARD" text="" />
+         </graphic>
       </Button>
    </children>
 </AnchorPane>
