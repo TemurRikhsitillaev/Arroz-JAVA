@@ -25,7 +25,7 @@
                   </Label>
                </children>
             </Pane>
-            <Button fx:id="addObj2" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Edit" textFill="WHITE">
+            <Button fx:id="addObj2" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Complexes" textFill="WHITE">
                <padding>
                   <Insets left="70.0" />
                </padding>
@@ -33,7 +33,18 @@
                   <Font name="Segoe UI Bold" size="16.0" />
                </font>
                <graphic>
-                  <FontAwesomeIcon fill="WHITE" glyphName="PAPERCLIP" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="LIST" />
+               </graphic>
+            </Button>
+            <Button fx:id="addObj21" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Courts" textFill="WHITE">
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="Segoe UI Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="LIST" />
                </graphic>
             </Button>
             <Button fx:id="addObj3" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" stylesheets="@../styles.css" text="Users" textFill="WHITE">
@@ -51,14 +62,14 @@
       </VBox>
       <TableView layoutX="300.0" prefHeight="614.0" prefWidth="982.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Name" />
-          <TableColumn prefWidth="115.0" text="Price" />
+          <TableColumn prefWidth="136.0" text="Name" />
+          <TableColumn prefWidth="106.0" text="Price" />
             <TableColumn prefWidth="182.0" text="Phone number" />
-            <TableColumn prefWidth="160.0" text="Address" />
-            <TableColumn prefWidth="107.0" text="Type" />
-            <TableColumn prefWidth="89.0" text="Time(open)" />
-            <TableColumn prefWidth="84.0" text="Time(close)" />
-            <TableColumn prefWidth="98.0" text="Time(ordered)" />
+            <TableColumn prefWidth="175.0" text="Address" />
+            <TableColumn prefWidth="96.0" text="Type" />
+            <TableColumn prefWidth="100.0" text="Time(open)" />
+            <TableColumn prefWidth="93.0" text="Time(close)" />
+            <TableColumn prefWidth="93.0" text="Time(ordered)" />
         </columns>
       </TableView>
       <HBox alignment="TOP_RIGHT" layoutX="300.0" layoutY="614.0" prefHeight="55.0" prefWidth="982.0">
