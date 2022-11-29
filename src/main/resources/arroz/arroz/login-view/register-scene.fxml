@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="add_pane" prefHeight="498.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="166.0" layoutY="32.0" text="Registration">
+         <font>
+            <Font name="Segoe UI Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="248.0" text="Password:">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="144.0" layoutY="365.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="240.0" stylesheets="@../styles.css" text="GO!" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="33.0" stylesheets="@../styles.css">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="415.0" layoutY="39.0" text="X" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="144.0" layoutY="239.0" prefHeight="38.0" prefWidth="240.0" promptText="Type a password" stylesheets="@../styles.css">
+         <styleClass>
+            <String fx:value="transpartent" />
+            <String fx:value="round-layout" />
+         </styleClass>
+      </PasswordField>
+      <TextField layoutX="144.0" layoutY="177.0" prefHeight="38.0" prefWidth="240.0" promptText="+998 XX XXX XX XX" stylesheets="@../styles.css">
+         <styleClass>
+            <String fx:value="transpartent" />
+            <String fx:value="round-layout" />
+         </styleClass>
+      </TextField>
+      <Label layoutX="14.0" layoutY="186.0" text="Mobile Number:">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="144.0" layoutY="302.0" prefHeight="38.0" prefWidth="240.0" promptText="Password one more time" stylesheets="@../styles.css">
+         <styleClass>
+            <String fx:value="transpartent" />
+            <String fx:value="round-layout" />
+         </styleClass>
+      </PasswordField>
+      <TextField layoutX="144.0" layoutY="116.0" prefHeight="38.0" prefWidth="240.0" promptText="Type your name" stylesheets="@../styles.css">
+         <styleClass>
+            <String fx:value="transpartent" />
+            <String fx:value="round-layout" />
+         </styleClass>
+      </TextField>
+      <Label layoutX="51.0" layoutY="126.0" text="Name">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
