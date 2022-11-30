@@ -58,13 +58,13 @@
             <String fx:value="round-layout" />
          </styleClass>
       </PasswordField>
-      <TextField layoutX="144.0" layoutY="116.0" prefHeight="38.0" prefWidth="240.0" promptText="Type your name" stylesheets="@../styles.css">
+      <TextField layoutX="144.0" layoutY="116.0" prefHeight="38.0" prefWidth="240.0" promptText="Type username" stylesheets="@../styles.css">
          <styleClass>
             <String fx:value="transpartent" />
             <String fx:value="round-layout" />
          </styleClass>
       </TextField>
-      <Label layoutX="51.0" layoutY="126.0" text="Name">
+      <Label layoutX="35.0" layoutY="126.0" text="Username:">
          <font>
             <Font name="Segoe UI Bold" size="15.0" />
          </font>
