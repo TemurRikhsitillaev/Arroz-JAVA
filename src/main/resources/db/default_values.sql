@@ -8,7 +8,7 @@ INSERT INTO `arroz`.`complexes` (`name`, `address`, `phone-number`, `price`, `op
 ('Uchkun', 'Tashkent, Yunusabad district, Khusniobod mahalla', '+998977283222', '80000', '08:00', '20:00');
 
 # BOOKING
-INSERT INTO `arroz`.`booking` (`username`, `complexID`,`courtID`,`data`,`time`) VALUES
+INSERT INTO `arroz`.`booking` (`username`, `complexID`,`courtID`,`date`,`time`) VALUES
  ('temur', '2', '1', '12-12-22', '12:00'),
  ('asad', '3', '1', '13-12-22', '11:00'),
  ('putin', '1', '1', '11-12-22', '10:00');

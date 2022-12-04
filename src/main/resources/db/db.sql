@@ -15,7 +15,7 @@ CREATE TABLE `arroz`.`booking` (
  `username` VARCHAR(45) NOT NULL,
  `complexID` INT NOT NULL,
  `courtID` INT NOT NULL,
- `data` DATE NOT NULL,
+ `date` DATE NOT NULL,
  `time` TIME NOT NULL,
  PRIMARY KEY (`bookingID`));
 
