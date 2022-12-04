@@ -22,7 +22,7 @@ CREATE TABLE `arroz`.`booking` (
 CREATE TABLE `arroz`.`courts` (
     `courtID` INT NOT NULL AUTO_INCREMENT,
     `price` DECIMAL(20) NOT NULL,
-    `surface` VARCHAR(45) NOT NULL,
+    `surface` BOOLEAN NOT NULL,
     `type` VARCHAR(45) NOT NULL,
     `phone-number` DECIMAL(20) NOT NULL,
 PRIMARY KEY (`courtID`));

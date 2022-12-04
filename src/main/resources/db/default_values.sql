@@ -21,7 +21,7 @@ INSERT INTO `arroz`.`users` (`username`, `password`, `admin`) VALUES
 
 # COURTS
 INSERT INTO `arroz`.`courts` (`price`, `surface`, `type`, `phone-number`) VALUES
- ('120000', 'hard', 'outdoor', '+998997802949'),
- ('100000', 'hard', 'indoor', '+998997280878');
+ ('120000', TRUE, 'outdoor', '+998997802949'),
+ ('100000', FALSE, 'indoor', '+998997280878');
 
 
