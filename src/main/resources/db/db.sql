@@ -1,6 +1,7 @@
 DROP TABLE complexes;
 DROP TABLE users;
 DROP TABLE booking;
+DROP TABLE courts;
 
 CREATE TABLE `arroz`.`users` (
  `userID` INT NOT NULL AUTO_INCREMENT,
@@ -17,6 +18,14 @@ CREATE TABLE `arroz`.`booking` (
  `data` DATE NOT NULL,
  `time` TIME NOT NULL,
  PRIMARY KEY (`bookingID`));
+
+CREATE TABLE `arroz`.`courts` (
+    `courtID` INT NOT NULL AUTO_INCREMENT,
+    `price` DECIMAL(20) NOT NULL,
+    `surface` VARCHAR(45) NOT NULL,
+    `type` VARCHAR(45) NOT NULL,
+    `phone-number` DECIMAL(20) NOT NULL,
+PRIMARY KEY (`courtID`));
 
 
 CREATE TABLE `arroz`.`complexes` (
